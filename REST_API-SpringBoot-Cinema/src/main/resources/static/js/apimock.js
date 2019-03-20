@@ -3,6 +3,7 @@
 apimock=(function(){
 
 	var mockdata=[];
+	var func;
 
 
 
@@ -15,10 +16,12 @@ apimock=(function(){
 
 	
    return {
-		getCinemaByName = function(name,callback){
-			callback(
-				mockdata[name]
-			);
+		getCinemaByName : function(name,callback){
+			
+					
+				func=mockdata[name.name];
+				var funci = JSON.parse(func);
+				callback(funci);
 	
 		}	
 		
@@ -26,5 +29,3 @@ apimock=(function(){
 	}	
 
 })();
-
-export {apimock};

@@ -20,11 +20,11 @@
     <title>Blueprints</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="/webjars/jquery/jquery.min.js"></script>
     <script src="/webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/apimock.js"></script>
-<script src="js/app.js"></script>
+    <script src="js/app.js"></script>
     <link rel="stylesheet"
       href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
       
@@ -34,8 +34,8 @@
         <h1>Busqueda cinemas</h1>
         <hr/>
         <div class="topnav" style >
-          <input type="text" placeholder="Search..">
-          <button type="submit">Search</button>
+          <input id='name' type="text" placeholder="Search.." >
+          <button type="submit" id='search' onclick="app.obtenercinema()">Search</button>
           <br>
           <br>
           <table class="egt" style="width:50%" cellpadding="10">
