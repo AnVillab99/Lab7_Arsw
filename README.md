@@ -1,4 +1,4 @@
-#Taller 7
+# Taller 7
 Preparando el proyecto
 Utilizando el proyecto springboot de cinemas agregue las dependencias que sirven para el uso de librerias javascript dentro del mismo
 
@@ -54,8 +54,10 @@ Sobre el listado resultante, haga otro 'map', que tome cada uno de estos element
 Asocie la operación antes creada (la de app.js) al evento 'on-click' del botón de consulta de la página.
 Verifique el funcionamiento de la aplicación. Inicie el servidor, abra la aplicación HTML5/JavaScript, y rectifique que al ingresar un cinema existente, se cargue el listado de funciones del mismo.
 ![imagen 1](images/punto1.png)
+    
 ![imagen 2](images/punto1-2.png)
-![codigo ilustracion sillas](images/ilustracion.png)
+
+![codigo logica graficar sillas](images/ilustracion.png)
 
 ### Entrega próxima semana
 Muestre gráficamente el estado actual de las sillas de la función de un cine escogida
