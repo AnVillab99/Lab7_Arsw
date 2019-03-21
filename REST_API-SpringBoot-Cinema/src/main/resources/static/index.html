@@ -33,22 +33,20 @@ table, th, td {
 			<input id='name' type="text" placeholder="Search..">
 			<button type="submit" id='search' onclick="app.obtenercinema()">Search</button>
 			<br> <br>
-			<table class="egt" style="width: 50%" cellpadding="10">
-				<tr>
-					<th>Cine</th>
-					<th>Funcion</th>
-					<th>Sillas</th>
-					<th>Fecha</th>
-				</tr>
-				<tr>
-					<td>Cinema X</td>
-					<td>a</td>
-					<td>23</td>
-					<td>23-23-1999</td>
-				</tr>
-				<tbody id="data">
-				</tbody>
-			</table>
+			<table id="tablaFunciones">
+                <thead>
+                    <tr>
+                        <th>Num</th>                        
+                        <th>Funcion</th>
+                        <th>Sillas</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody id="tb1">
+
+                </tbody>
+            </table>           
+            
 
 		</div>
 	</center>

@@ -1,5 +1,6 @@
 var funciones = [];
 function actualizar() {
+	$("#tb1").empty();
 	for (var i = 0; i < funciones.length; i++) {
 		var numFun = i + 1;
 		var nombre = funciones[i].movie.name;
@@ -7,9 +8,9 @@ function actualizar() {
 		var fecha = funciones[i].date;
 		window.console.log(numFun + "name=" + nombre + " sillas = " + sillas
 				+ " fecha= " + fecha);
-		var funcion = "<tr><td>" + app.nombre() + "</td><td>" + nombre
+		var funcion = "<tr><td>" + numFun + "</td><td>" + nombre
 				+ "</td><td>" + sillas + "</td><td>" + fecha + "</td></tr>";
-		$("#data").html.append(funcion);
+		$("#tb1").append(funcion);
 
 	}
 }
