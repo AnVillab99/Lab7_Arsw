@@ -30,25 +30,15 @@ table, th, td {
 		<h1>Busqueda cinemas</h1>
 		<hr />
 		<div class="topnav" style>
-			<input id='name' type="text" placeholder="Search..">
-			<button type="submit" id='search' onclick="app.obtenercinema()">Search</button>
+            <p id='nombre' value=''></p>/>
+            <p id='fecha' value=''></p>/>
+            <p>Sillas</p>/>
+			
 			<br> <br>
-			<table id="tablaFunciones">
-                <thead>
-                    <tr>
-                        <th>Num</th>                        
-                        <th>Funcion</th>
-                        <th>Sillas</th>
-						<th>Fecha</th>
-						<th>
-							<button id='ele' type='submit' onclick="location='sala.html';app.revisarSala(this)">
-									Revisar estado
-							</button>
-						</th>
-                    </tr>
+			<table id="Sillas">
+                <thead>                    
                 </thead>
-                <tbody id="tb1">
-
+                <tbody id="tb2">
                 </tbody>
             </table>           
             
